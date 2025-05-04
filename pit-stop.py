@@ -1,3 +1,8 @@
+
+#
+# ATTEMPT AT USING LANGCHAIN INSTEAD OF LANGGRAPH
+#
+
 from typing import List
 from langchain.vectorstores import FAISS, Chroma
 from langchain.embeddings.base import Embeddings
