@@ -1,0 +1,101 @@
+part_type,name,function,common_issues,maintenance_info
+Engine,Alternator,Generates electricity to power electronics and charge the battery,"Bearing failure, worn brushes",Check drive belt tension and replace if worn
+Engine,Spark Plug,Ignites air/fuel mixture in engine,"Fouling, misfiring","Check gap, replace every 30,000-100,000 miles"
+Transmission,Clutch,Engages/disengages engine from transmission,"Worn disc, slipping",Inspect and replace at signs of slippage
+Transmission,Torque Converter,Transfers rotating power from engine to transmission,"Overheating, fluid leaks",Flush transmission fluid regularly
+Electrical,Battery,Provides electrical power to start vehicle and run electronics,"Dead cell, corrosion","Check voltage, clean terminals, replace every 3-5 years"
+Suspension,Shock Absorber,Controls suspension movement and improves ride comfort,"Leaking, reduced damping","Inspect for leaks, replace every 50,000 miles"
+Suspension,Strut,Supports suspension and absorbs shocks,"Worn mount, fluid leaks","Check during alignment, replace if worn"
+Brakes,Brake Pad,Applies pressure to rotors to stop the car,"Wear over time, squeaking","Inspect every 10,000 miles, replace when worn"
+Brakes,Brake Rotor,Surface for brake pads to clamp on,"Warping, scoring",Resurface or replace if uneven
+Fuel System,Fuel Pump,Delivers fuel from tank to engine,"Noisy operation, failure","Replace fuel filter, monitor pressure"
+Fuel System,Fuel Injector,Sprays fuel into engine intake or cylinder,"Clogging, misfiring","Use injector cleaner, replace if necessary"
+Cooling,Radiator,Dissipates heat from coolant,"Leaks, clogging",Flush coolant system every 2 years
+Cooling,Thermostat,Regulates coolant flow to radiator,Stuck open or closed,Replace if overheating or poor heater performance
+Cooling,Water Pump,Circulates coolant through engine and radiator,"Leaking seal, noisy bearing",Replace at signs of leakage or during timing belt service
+Interior,HVAC Blower Motor,Blows air through HVAC vents,"Noisy, not blowing air","Check fuses, replace motor if non-functional"
+Body,Headlight,Provides illumination for driving at night,"Bulb burnout, fogging","Replace bulb, clean lens"
+Body,Bumper,Absorbs impact during collision,"Dents, cracks",Inspect for damage after impact
+Steering,Power Steering Pump,Assists steering by hydraulic pressure,"Noise, leaks","Check fluid, replace worn belts"
+Steering,Steering Rack,Transfers steering input to wheels,"Leaking seals, loose steering","Inspect tie rods, replace if leaking"
+Exhaust,Muffler,Reduces engine noise,"Corrosion, internal damage","Inspect for holes, replace if noisy"
+Exhaust,Catalytic Converter,Reduces harmful emissions,"Clogging, theft",Replace if check engine light is on with related codes
+Drivetrain,Drive Shaft,Transfers power from transmission to wheels,"Vibration, worn joints","Inspect U-joints, replace if loose"
+Lighting,Turn Signal Relay,Controls blinking of indicator lights,"Failure to blink, rapid blinking",Replace faulty relay
+Electrical,ECU (Engine Control Unit),Manages engine performance via sensors and programming,"Failure, sensor issues","Check for codes, reflash or replace if needed"
+Intake,Air Filter,Cleans incoming air for engine,"Clogged, reduced airflow","Replace every 12,000-15,000 miles"
+Body,Windshield,Provides driver visibility and protects from wind/debris,"Chips, cracks","Repair small chips, replace if cracked"
+Electrical,Window Regulator,Raises/lowers power windows,"Motor failure, cable issues",Replace regulator assembly if inoperable
+Tires,Rim,Houses tire and provides structural mounting for it,"Bends, cracks",Inspect for damage after impact
+Tires,TPMS Sensor,Monitors tire pressure,"Battery failure, inaccurate readings",Replace sensor when battery fails (~5-10 years)
+Cooling,Radiator Cap,Maintains pressure in the cooling system,"Seal wear, pressure loss",Replace during coolant service
+Engine,Timing Belt,Synchronizes camshaft and crankshaft timing,"Breakage, stretching","Replace every 60,000-100,000 miles"
+Engine,Crankshaft,Converts linear piston motion into rotation,"Wear, cracking",Inspect during engine rebuilds
+Engine,Camshaft,Operates intake and exhaust valves,"Lobe wear, bearing failure",Check timing and lobe wear during service
+Engine,Oil Pump,Distributes oil throughout engine,"Low pressure, internal wear","Check oil pressure regularly, replace if faulty"
+Engine,PCV Valve,Regulates crankcase ventilation,"Clogging, poor idle",Replace during regular tune-ups
+Transmission,Shift Solenoid,Controls fluid flow in automatic transmissions,"Sticking, failure",Replace if erratic shifting occurs
+Transmission,Transmission Cooler,Cools transmission fluid,"Leaks, clogging",Flush fluid and inspect lines
+Transmission,Gear Set,Transfers engine power to wheels,"Tooth wear, grinding",Replace worn gears or synchronize
+Electrical,Ignition Coil,Converts battery voltage to high voltage for spark plugs,"Overheating, misfires","Check with scan tool, replace if faulty"
+Electrical,Starter Motor,Cranks engine to start car,"Clicking, slow crank",Replace if dragging or not engaging
+Electrical,Fuse Box,Distributes power and protects circuits,"Blown fuses, corrosion","Check fuses regularly, clean terminals"
+Electrical,Relay,Controls high-current devices,"Clicking, failure to switch",Replace if malfunctioning
+Suspension,Control Arm,Connects suspension to chassis,"Worn bushings, bending",Inspect during alignment or tire changes
+Suspension,Stabilizer Bar,Reduces body roll in turns,"Broken links, bushings",Check during suspension service
+Suspension,Ball Joint,Connects control arms to steering knuckle,"Looseness, squeaking",Replace if worn or noisy
+Suspension,Coil Spring,Supports vehicle weight and absorbs impact,"Cracks, sagging",Inspect for even ride height
+Brakes,Brake Caliper,Clamps brake pads to rotors,"Sticking, leaking",Rebuild or replace if dragging or leaking
+Brakes,ABS Sensor,Monitors wheel speed for ABS,"Contamination, wiring issues",Inspect and clean or replace if ABS light is on
+Brakes,Master Cylinder,Generates brake fluid pressure,"Internal leaks, spongey pedal",Replace if fluid bypasses internally
+Fuel System,Fuel Tank,Holds fuel for the vehicle,"Corrosion, leaks","Inspect for rust, replace if leaking"
+Fuel System,Charcoal Canister,Traps fuel vapors for emissions control,"Clogging, EVAP codes",Replace if canister fails purge test
+Fuel System,Fuel Pressure Regulator,Maintains consistent fuel pressure,"Leaking, poor fuel economy",Replace if pressure is outside specs
+Cooling,Coolant Temperature Sensor,Monitors coolant temp for ECU,"Faulty readings, overheating",Replace if throwing temp-related codes
+Cooling,Heater Core,Transfers heat to cabin air,"Clogged, leaking","Flush heater system, replace if leaking"
+Cooling,Radiator Fan,Cools radiator using airflow,"Motor failure, fuse issues","Test operation, replace faulty fan or relay"
+Interior,Instrument Cluster,"Displays speed, fuel and other info"," Gauge failure, backlight issues", Repair or replace cluster unit
+Interior,Seat Belt,Restrains occupant during crash,"Fraying, retraction failure","Inspect for damage, replace if not locking properly"
+Interior,Dashboard,Mounts interior controls and displays,"Cracks, warping",Use protectants to reduce sun damage
+Body,Grille,Allows airflow to radiator and protects front end,"Cracks, loose mounts",Replace if damaged
+Body,Door Handle,Allows entry/exit to vehicle,"Breakage, sticking",Replace handle or linkage
+Body,Mirror Assembly,Provides rear and side visibility,"Cracks, motor failure",Replace cracked glass or motor
+Body,Sunroof Motor,Operates power sunroof,"Motor burn out, leaks",Replace motor or seal if leaking
+Steering,Tie Rod End,Connects steering rack to wheel hub,"Looseness, uneven tire wear",Replace if worn or loose
+Steering,Idler Arm,Supports steering linkage (in some trucks),"Play, bushing wear",Inspect during alignment
+Steering,Pitman Arm,Transfers motion from steering box (trucks),"Slop, wear",Replace if steering feels loose
+Exhaust,Oxygen Sensor,Monitors exhaust gas for air/fuel ratio,"Contamination, aging","Replace every 60,000–90,000 miles"
+Exhaust,Exhaust Manifold,Collects exhaust gases from engine,"Cracks, leaks",Inspect for noise or emissions issues
+Exhaust,Resonator,Reduces exhaust noise and tone,"Corrosion, holes",Inspect during muffler service
+Drivetrain,Differential,Distributes power to wheels during turns,"Whining, leaking","Change fluid, inspect for metal shavings"
+Drivetrain,Axle Shaft,Transfers power from diff to wheels,"Clicking (FWD), boot tears",Replace CV boots or axles if clicking
+Drivetrain,Transfer Case,Distributes power to front/rear in AWD,"Leaks, shift issues",Flush fluid and inspect seals
+Lighting,Brake Light,Signals braking to other drivers,"Bulb failure, cracked lens",Check bulbs and sockets regularly
+Lighting,High Beam Relay,Controls high beam function,"No response, fuse issues",Replace if high beams not working
+Lighting,Interior Dome Light,Illuminates cabin,Switch or bulb failure,Replace bulb or door switch
+Lighting,Headlight Level Sensor,Adjusts beam angle in adaptive lights,Sensor failure,Replace if aiming is off
+Electrical,Ambient Temperature Sensor,Feeds outside temp to HVAC,False readings,Replace if sensor is inaccurate
+Electrical,Alternator Belt,Drives alternator via crankshaft,"Cracks, squealing",Replace if cracked or loose
+Engine,Valve Cover,Protects valve train and contains oil,"Oil leaks, cracked gasket",Replace gasket if leaking
+Engine,Engine Mount,Secures engine to frame while damping vibration,"Cracks, excessive movement",Replace if engine shakes or clunks
+Transmission,Transmission Mount,Holds transmission in place,"Clunking, sagging",Replace if causing drivetrain misalignment
+Interior,Cabin Air Filter,Filters air entering cabin,"Dust buildup, musty smell","Replace every 15,000-30,000 miles"
+Interior,Window Switch,Controls power windows,Failure to operate,Replace switch if no response
+Interior,Steering Wheel,Driver control for direction,"Wear, controls failure","Clean regularly, inspect buttons"
+Body,Trunk Latch,Keeps trunk secured,"Stuck latch, misalignment",Lubricate or replace if it won't open/close
+Body,Fender,Covers wheel well and protects body,"Dents, rust",Repair or replace as needed
+Body,Hood Latch,Keeps hood closed,"Failure to lock, cable issues",Inspect and lubricate latch mechanism
+Steering,Steering Column,Houses steering shaft and electrical controls,"Loose, tilt failure",Inspect if play or electrical issues occur
+Suspension,Sway Bar Link,Connects sway bar to control arm,"Broken joint, rattling",Replace if knocking over bumps
+Brakes,Brake Booster,Amplifies brake pedal force,"Hissing sound, hard pedal",Replace if vacuum leak is present
+Brakes,Parking Brake Cable,Operates mechanical rear brakes,"Rusting, stretching",Adjust or replace if tension is lost
+Cooling,Fan Clutch,Engages engine fan when hot,Failure to engage/disengage,Replace if fan runs constantly or never
+Fuel System,Purge Valve,Releases fuel vapors from canister to intake,"Sticking, rough idle",Replace if EVAP codes appear
+Drivetrain,Wheel Hub,Supports wheel and houses bearings,"Bearing noise, vibration",Replace if noisy or loose
+Drivetrain,Wheel Bearing,Enables wheel rotation with minimal friction,"Humming, play",Replace if play is present
+Engine,EGR Valve,Recirculates exhaust gases to reduce emissions,"Clogging, poor idle",Clean or replace if rough running
+Electrical,Main Wiring Harness,Distributes power/data throughout vehicle,"Fraying, shorts","Repair damaged wires, inspect connectors"
+Transmission,Clutch Slave Cylinder,Hydraulically actuates clutch,"Worn seals, leaking",Replace if clutch pedal is soft
+Interior,Center Console,Storage and control area between seats,"Broken lid, electrical failure",Repair or replace if damaged
+Tires,Lug Nut,Secures wheel to hub,"Stripping, over-tightening","Torque to spec, replace damaged ones"
+Body,License Plate Light,Illuminates plate at night,"Burned bulb, corroded socket","Replace bulb, clean socket"

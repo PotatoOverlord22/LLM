@@ -1,0 +1,6 @@
+1. RAG part is done
+2. Conversational layer (e.g "hi"): make sure we have an llm agent that answers conversational questions to create a context for the actual PitStop llm   
+3. Feedback mechanism: user should be able to input certain feedback ("make it shorter", correct the llm) and that feedback should be taken into consideration
+4. Chunk size retrieval from db: test different chunk sizes for best answers, find the optimal value in order to minimise halucinations and provide big enough context window
+5. UI: chat ui
+6. Evaluation mechanism: use another llm model to evaluate the current one by giving it the context, the input and the output (see lab from week 7-8)
