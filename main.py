@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 import pandas as pd
@@ -74,7 +75,7 @@ chromadb_vectorstore = Chroma.from_documents(
 llm = ChatOpenAI(
     base_url="http://localhost:1234/v1",
     api_key="lm-studio",
-    model="deepseek-r1-distill-qwen-7b"
+    model="llama-3.2-3b-instruct"
 )
 
 qa_chain_chroma = RetrievalQA.from_chain_type(
@@ -144,6 +145,15 @@ agent_executor = create_react_agent(
 # FastAPI setup
 app = FastAPI()
 
+# Allow CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # You can restrict this to specific origins
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 class Message(BaseModel):
     content: str
     conversation_id: str
@@ -158,5 +168,5 @@ async def chat(message: Message):
         config
     )
     return {
-        "responses": [msg.content for msg in response["messages"]]
+        "responses": [response["messages"][-1].content]
     }
