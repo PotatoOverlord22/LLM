@@ -4,3 +4,13 @@
 4. Chunk size retrieval from db: test different chunk sizes for best answers, find the optimal value in order to minimise halucinations and provide big enough context window
 5. UI: chat ui
 6. Evaluation mechanism: use another llm model to evaluate the current one by giving it the context, the input and the output (see lab from week 7-8)
+
+Notes 8.05.2025:
+1. Use a smarter, bigger LLM for the agent
+2. Look at model specific documentation detailing how to use tags to give better prompts
+3. Preventing infinite agent loop: points 1, 2 and also creating a fallback tool in case the agent cant decide which one to use.
+4. Model evaluation using deepval LLM Judge, look for RAG scoring and test using a variation of prompts
+5. LLM Guardrail - assure that the output is not toxic and is relevant to the task, this is done by using a different
+LLM (Search for Constitution AI)
+6. Feedback - use a different LLM which should summarize the instruction given and then inject them in the rag tool.
+7. History persistence: remember chats even after restarting server (save them on disk/in a db long term)

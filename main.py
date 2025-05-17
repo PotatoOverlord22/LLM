@@ -1,11 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List
 import pandas as pd
 import requests
 
-from typing import List
 from langchain_community.vectorstores import Chroma
 from langchain.embeddings.base import Embeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -16,17 +14,15 @@ from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
 from langchain_core.messages import HumanMessage
 from langgraph.checkpoint.memory import MemorySaver
-from typing import List, Optional
+from typing import List
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.tools import tool
 from langchain_core.prompts import ChatPromptTemplate
 
-# Load CSVs
 parts_df = pd.read_csv("./Data/parts.csv")
 systems_df = pd.read_csv("./Data/systems.csv")
 scenarios_df = pd.read_csv("./Data/automotive_scenarios.csv")
 
-# Combine them into one list of documents
 def make_text(row):
     return " | ".join(str(x) for x in row if pd.notnull(x))
 
@@ -63,7 +59,6 @@ Helpful Answer:"""
 
 QA_CHAIN_PROMPT = PromptTemplate.from_template(template)
 
-# Chroma db
 persist_directory = 'chroma_store'
     
 chromadb_vectorstore = Chroma.from_documents(
